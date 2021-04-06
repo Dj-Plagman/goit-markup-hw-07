@@ -1,0 +1,50 @@
+.specific {
+    padding-top: 94px;
+}
+
+.feature:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature {
+    width: 270px;
+}
+
+.skills {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title_text);
+}
+
+.skills_text {
+    flex-basis:auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+
+    color: var(--text_basic);
+}
+
+.icon_feature {
+    width: 70px;
+    height: 70px;
+    
+}
+
+.icon_list {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
