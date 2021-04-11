@@ -1,16 +1,16 @@
-.our_work {
+.direction {
     padding-bottom: 94px;
 }
 
-.we_work {
+.working {
     padding-top: 90px;
 }
 
-.we_work_list {
+.working_list {
     margin-top: 50px;
 }
 
-.we_work_h2 {
+.working__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -20,15 +20,15 @@
     color: var(--title_text); 
 }
 
-.box:not(:last-child) {
+.working__box:not(:last-child) {
     margin-right: 30px;
 }
 
-.what_we_do {
+.working__direction {
     position: relative;
 }
 
-.text_works {
+.working__text {
     position: absolute;
     bottom: 0;
     left: 0;

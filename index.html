@@ -16,15 +16,15 @@
    <div class="container">
     <nav class="nav">
     <a class="logo link" href=""><span class="web">Web</span>Studio</a>
-        <ul class="nav_list list" >
-            <li class="navigation_li ">
-                <a class="nav_link link current current_line" href="">Студия</a>
+        <ul class="menu list" >
+            <li class="menu__list">
+                <a class="menu__link link current current_line" href="">Студия</a>
             </li>
-            <li class="navigation_li">
-                <a class="nav_link link" href="portfolio.html">Портфолио</a>
+            <li class="menu__list">
+                <a class="menu__link link" href="portfolio.html">Портфолио</a>
             </li>
-            <li class="navigation_li">
-                <a class="nav_link link " href="#contacts_1">Контакты</a>
+            <li class="menu__list">
+                <a class="menu__link link " href="#contacts_1">Контакты</a>
             </li>
         </ul>
     </nav>
@@ -51,8 +51,8 @@
     <main>
         <!--HERO-->
         <section class="hero overley container">
-        <div class="container container_hero">
-            <h1 class="hero_text"> ЭФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <div class="container container-hero">
+            <h1 class="hero-text">ЭФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button class="button" data-modal-open type="button">Заказать услугу</button>
         </div>
         </section>
@@ -63,7 +63,7 @@
             <ul class="list list_specif" >
                 <li class="feature">
                     <div class="icon_list">
-                    <svg class="icon_feature">
+                    <svg class="icon-feature">
                         <use href="./img/sprite.svg#icon-antenna_1"></use>
                     </svg>
                 </div>
@@ -72,7 +72,7 @@
                 </li>
                 <li class="feature">
                     <div class="icon_list">
-                    <svg class="icon_feature">
+                    <svg class="icon-feature">
                         <use href="./img/sprite.svg#icon-clock_1"></use>
                     </svg>
                 </div>
@@ -81,7 +81,7 @@
                 </li>
                 <li class="feature">
                     <div class="icon_list">
-                    <svg class="icon_feature">
+                    <svg class="icon-feature">
                         <use href="./img/sprite.svg#icon-diagram_1"></use>
                     </svg>
                 </div>
@@ -90,7 +90,7 @@
                 </li>
                 <li class="feature">
                     <div class="icon_list">
-                    <svg class="icon_feature">
+                    <svg class="icon-feature">
                         <use href="./img/sprite.svg#icon-astronaut_1"></use>
                     </svg>
                 </div>
@@ -100,38 +100,38 @@
             </ul>
         </div>
         </section>
-        <!--чем_мы_занимаемся-->
-        <section class="our_work">
-        <div class="we_work container">
-            <h2 class="we_work_h2">Чем мы занимаемся</h2>
-            <ul class="list we_work_list" >
-                <li class="box">
-                    <div class="what_we_do">
+    <!--чем_мы_занимаемся-->
+    <section class="direction">
+        <div class="working container">
+            <h2 class="working__title">Чем мы занимаемся</h2>
+            <ul class="list working_list" >
+                <li class="working__box">
+                    <div class="working__direction">
                     <img src="img/Work/img.jpg" alt="набирает текст" width="370" height="294">
-                    <p class="text_works">Десктопные приложения</p>
+                    <p class="working__text">Десктопные приложения</p>
                 </div>
                 </li>
-                <li class="box">
-                    <div  class="what_we_do">
+                <li class="working__box">
+                    <div  class="working__direction">
                     <img src="img/Work/img-1.jpg" alt="держит телефон" width="370" height="294">
-                    <p class="text_works">Мобильные приложения</p>
+                    <p class="working__text">Мобильные приложения</p>
                 </div>
                 </li>
-                <li class="box">
-                    <div class="what_we_do">
+                <li class="working__box">
+                    <div class="working__direction">
                     <img src="img/Work/img-2.jpg" alt="держит планшет" width="370" height="294">
-                    <p class="text_works">Дизайнерские решения</p>
+                    <p class="working__text">Дизайнерские решения</p>
                 </div>
                 </li>
             </ul>
         </div>
-        </section>
-        <!--Команда-->
-        <section class="team">
-            <div class="container team_box">
-            <h2 class="team_h2">Наша Команда</h2>
-            <ul class="list team_box_card" >
-                <li class="team_card">
+    </section>
+    <!--Команда-->
+    <section class="team">
+        <div class="container team-container">
+            <h2 class="team-title">Наша Команда</h2>
+            <ul class="list team__list">
+                <li class="team__card">
                     <img class="page_team" src="img/Team/Demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
                 <div class="team_info">
                     <h3 class="name_team">Игорь Демьяненко</h3>
@@ -160,7 +160,7 @@
                 </ul>
                 </div>
                 </li>
-                <li class="team_card">
+                <li class="team__card">
                     <img class="page_team" src="img/Team/Repina.jpg" alt="Ольга Репина" width="270" height="260">
                 <div class="team_info">
                     <h3 class="name_team">Ольга Репина</h3>
@@ -189,7 +189,7 @@
                     </ul>
                 </div>
                 </li>
-                <li class="team_card">
+                <li class="team__card">
                     <img class="page_team" src="img/Team/Tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
                 <div class="team_info">
                     <h3 class="name_team">Николай Тарасов</h3>
@@ -218,7 +218,7 @@
                     </ul>
                 </div>
                 </li>
-                <li class="team_card">
+                <li class="team__card">
                     <img class="page_team" src="img/Team/Ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
                 <div class="team_info">
                     <h3 class="name_team">Михаил Ермаков</h3>
@@ -248,49 +248,49 @@
                 </div>
                 </li>
             </ul>
-            </div>
-        </section>
+        </div>
+    </section>
         <!--Клиенты-->
         <section class="clients">
             <div class="container">
-                <h2 class="clients_h2">Постоянные клиенты</h2>
+                <h2 class="clients_title">Постоянные клиенты</h2>
                 <ul class="list clients_list">
-                    <li class="link_box_client">
+                    <li class="clients__box">
                         <a class="clients_link">
                             <svg class="client_icon_1">
                                 <use href="./img/sprite.svg#icon-logo_1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link_box_client">
+                    <li class="clients__box">
                         <a class="clients_link">
                             <svg class="client_icon_2">
                                 <use href="./img/sprite.svg#icon-logo_2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link_box_client">
+                    <li class="clients__box">
                         <a class="clients_link">
                             <svg class="client_icon_3">
                                 <use href="./img/sprite.svg#icon-logo_3"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link_box_client">
+                    <li class="clients__box">
                         <a class="clients_link">
                             <svg class="client_icon_4">
                                 <use href="./img/sprite.svg#icon-logo_4"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link_box_client">
+                    <li class="clients__box">
                         <a class="clients_link">
                             <svg class="client_icon_5">
                                 <use href="./img/sprite.svg#icon-logo_5"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link_box_client">
+                    <li class="clients__box">
                         <a class="clients_link">
                             <svg class="client_icon_6">
                                 <use href="./img/sprite.svg#icon-logo_6"> </use>
@@ -377,7 +377,7 @@
                 </svg>
             </button>
             
-            <p class="modal_form_h3">Оставьте свои данные, мы вам перезвоним</p>
+            <p class="modal_form_title">Оставьте свои данные, мы вам перезвоним</p>
 
             <form action="#" class="modal_form"> 
                 <label class="modal_form_field">

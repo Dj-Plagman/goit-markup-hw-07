@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -23,45 +23,47 @@
     
     color: var(--text_basic);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
- 
-.contakt_mail:hover,
-.contakt_mail:focus {
+
+    &:hover,
+    &:focus {
      color: var(--accent_color);
+    }
 }
+
  
 .contakt_tel {
-     padding-top: 7px;
-     padding-bottom: 7px;
-     display: flex;
-     align-items: center;
-     justify-content:space-between;
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.14;
-     letter-spacing: 0.02em;
-     width: 142px;
-     height: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    width: 142px;
+    height: 16px;
      
     color: var(--text_basic);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--accent_color);
+    }
 }
  
 .telephone {
     margin-left: auto;
 }
- 
-.contakt_tel:hover,
-.contakt_tel:focus {
-    color: var(--accent_color);
-     
-}
+
  
 .list {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
+
  
  .icon_mail {
     width: 16px;

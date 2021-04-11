@@ -1,4 +1,4 @@
-.container_hero {
+.container-hero {
     width: 1300px;
     height: 300px;
 }
@@ -8,8 +8,6 @@
     align-items: center;
     padding-bottom: 200px;
     padding-top: 200px;
-   
-    /*background: var(--background_first)*/
 
 }
 
@@ -25,7 +23,7 @@
     background-position: center;
 }
 
-.hero_text {
+.hero-text {
     max-width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -36,7 +34,6 @@
     margin: 0 auto;
     margin-bottom: 30px;
     color: var(--first_color);
-
 }
 
 .button {
@@ -55,9 +52,10 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+
+    &:focus,
+    &:hover {
+    background: var(--button_accent)
+    }
 }
 
-.button:focus,
-.button:hover {
-    background: var(--button_accent)
-}

@@ -21,10 +21,11 @@
     transform: translateY(100%);
     opacity: 0;
     transition: transform 250ms linear, opacity 250ms linear;
-}
 
-.linc_cards:hover .overley_card,
-.linc_cards:focus .overley_card {
+    .linc_cards:hover &,
+    .linc_cards:focus & {
     transform: translateY(0);
     opacity: 1;
+    }
 }
+
